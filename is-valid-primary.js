@@ -1,7 +1,9 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+function isValidPrimary(color){
+  return color === "red" || color === "blue" || color === "yellow"
+}
 
 
 // Our setup code here. Don't touch!
